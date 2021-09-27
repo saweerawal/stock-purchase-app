@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+:root{
+    --primary-green: #A7F3D0;
+    --primary-black: black;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: var(--primary-green);
+    color: var(--primary-black);
+}
+
+h1{
+    margin: auto;
+    text-align: center;
+    padding: 3rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin: auto;
+    
+}
+
+#initial-price , #quantity , #current-price{
+    margin: 1rem auto;
+    padding: 0.7rem;
+    width: 100%;
+    background-color: var(--primary-black);
+    color: var(--primary-green);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#submit-btn{
+    width: 50%;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: var(--primary-black);
+    color: var(--primary-green);
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+#output{
+    font-size: large;
+    margin-top: 1.5rem;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}

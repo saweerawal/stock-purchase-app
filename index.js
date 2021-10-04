@@ -28,8 +28,13 @@ function calculateStockResult(initial_price, stocks_quantity, current_price)
 
 
 function submitBtnHandler(){
+    if(Number(initialPrice.value)<0 || Number(quantity.value)<0 || Number(currentPrice.value)< 0){
+        output.innerText = "Enter Positive Values";
+    }
+    else{
     const result = calculateStockResult(Number(initialPrice.value), Number(quantity.value), Number(currentPrice.value));
     output.innerText = result;
+    }
 }
 
 
